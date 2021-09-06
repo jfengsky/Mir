@@ -6,6 +6,7 @@ import zhCN from "antd/lib/locale/zh_CN";
 import App from "./App";
 import { store } from "./store/index";
 import reportWebVitals from "./reportWebVitals";
+import 'antd/dist/antd.css';
 import "./index.css";
 ReactDOM.render(
   <ConfigProvider locale={zhCN}>

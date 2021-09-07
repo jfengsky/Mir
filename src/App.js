@@ -9,6 +9,8 @@ import {
 import Home from "./pages/home";
 import Admin from "./pages/admin";
 import LivingList from "./pages/admin/LivingList";
+import Livingedit from "./pages/admin/Livingedit";
+import Weaponslist from "./pages/admin/Weaponslist";
 
 const getComponent = item => {
   const { cmp } = item
@@ -17,6 +19,10 @@ const getComponent = item => {
       return Admin;
     case 'livinglist':
       return LivingList;
+    case 'livingedit':
+      return Livingedit;
+    case 'weaponslist':
+      return Weaponslist;
     default:
       return Home;
   }
